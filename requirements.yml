@@ -1,4 +1,4 @@
 ---
 roles:
   - name: geerlingguy.java
-  - name: geerlingguy.jenkins 
+  - src: https://github.com/mohangk/ansible-role-jenkins 

@@ -3,9 +3,10 @@
   
   vars:
     jenkins_hostname: localhost
+    jenkins_proxy_compatibility: true
     java_packages:
       - openjdk-11-jdk
 
   roles:
     - role: geerlingguy.java
-    - role: geerlingguy.jenkins
+    - role: ansible-role-jenkins
